@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Character Bios</title>
+
+    <script type="text/javascript" src="/vendors/angular.min.js"></script>
+    <script type="text/javascript" src="/vendors/angular-route.min.js"></script>
+    <script type="text/javascript" src="/scripts/app.js"></script>
+    <script type="text/javascript" src="/scripts/controllers/homeController.js"></script>
+    <script type="text/javascript" src="/scripts/controllers/seiyaController.js"></script>
+    <script type="text/javascript" src="/scripts/controllers/yusukeController.js"></script>
+    <script type="text/javascript" src="/scripts/controllers/luffyController.js"></script>
+
+
+    <link rel="stylesheet" href="/vendors/bootstrap.min.css" />
+    <link rel="stylesheet" href="/styles/style.css" />
+
+  </head>
+
+  <body ng-app="myApp">
+    <h1 class="text-center">Character Bios</h1>
+
+    <div ng-include="'/templates/nav.html'"></div>
+
+    <main ng-view></main>
+
+  </body>
+
+</html>
