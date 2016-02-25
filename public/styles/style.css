@@ -2,3 +2,50 @@ img {
   width: 400px;
   margin-bottom: 10px;
 }
+
+.luffygif {
+  width: 70px;
+}
+
+.yusukegif {
+  width: 150px;
+}
+
+.vashgif {
+  width: 50px;
+  padding-bottom: 10px;
+}
+
+body {
+  background-color: gray;
+}
+
+header {
+  text-align: center;
+}
+
+main{
+  width: 80%;
+  margin: auto;
+  background-color: white;
+  border-radius: 20px;
+}
+
+a {
+  color: white;
+}
+
+ul{
+  margin-left: -20px;
+  list-style-type: none;
+  text-align: center;
+}
+
+li{
+  padding: 6px;
+  font-size: 20px;
+  margin: 10px;
+  display: inline;
+  background-color: black;
+  border-radius: 5px;
+}

@@ -1,4 +1,4 @@
 myApp.controller('HomeController', ['$scope', function($scope) {
-    $scope.title = 'Home';
+    $scope.title = 'WELCOME!';
     $scope.image = '../../images/homeimg.jpg';
 }]);
